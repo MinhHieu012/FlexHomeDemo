@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    display: flex;
+}
+
+.sidebar {
+    width: 672px;
+    padding: 57px 42px 0px 35px;
+}
+
+.header {
+    margin-bottom: 48px;
+}
+
+.header h2 {
+    font-size: 33px;
+    margin-bottom: 45px;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+.header :nth-child(2) {
+    margin-bottom: 24px;
+}
+
+.nav {
+    display: flex;
+    margin-bottom: 37px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 14px 0;
+}
+
+.nav__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15.5px;
+}
+
+.nav__icon i {
+    font-size: 30px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    width: 147px;
+    text-align: center;
+    border-right: 1px solid #ADADAD;
+    font-size: 16px;
+}
+
+.nav__item:first-child {
+    width: 114px;
+    text-align: left;
+}
+
+.nav__item:last-child {
+    border-right: none;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 82px;
+    height: 571px;
+    justify-content: space-between;
+}
+
+.content__left {
+    width: 381px;
+    height: 100%;
+}
+
+.content__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #b1acac;
+}
+
+.content__right {
+    width: 178px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.content_right i {
+    font-size: 22px;
+}
+
+.arrow__top {
+    margin-bottom: 24px;
+}
+
+.numbers {
+    padding-top: 33px;
+    padding-bottom: 23px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: calc(50% - 60px);
+    grid-row-gap: 22px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    position: relative;
+    margin-bottom: 33px;
+}
+
+.numbers::after {
+    content: "Chọn tầng";
+    display: block;
+    position: absolute;
+    width: 98px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 16px;
+    top: -8px;
+    left: calc(50% - 49px);
+}
+
+.number__item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.number__item:hover {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+.footer {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left {
+    width: 139px;
+    height: 37px;
+}
+
+.footer__left img {
+    width: 100%;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+}
+
+.contact__item:nth-child(2) {
+    margin: 0 45px;
+}
+
+.contact__icon {
+    margin-right: 9px;
+    font-size: 16px;
+}
+
+.contact__item a {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact__item a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+
+.main {
+    width: 1248px;
+    background-image: url("/images/background-right.jpg");
+    background-position: center left -50px;
+    overflow: hidden;
+}
+
+.struct {
+    width: 700px;
+    height: 611px;
+    margin: 96px 0 0 288px;
+}
+
+.struct img {
+    width: 100%;
+}
+
+.compass {
+    width: 70px;
+    height: 70px;
+    margin: 0 0 24px 24px;
+}
+
+.compass img {
+    width: 100%;
+}
+
+.apartments {
+    width: fit-content;
+    padding: 23.5px 29.2px 25.5px 29.2px;
+    border-top: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.apartment__item {
+    width: 363.125px;
+    padding: 17.5px 14px 16.5px 16.79px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    margin-right: 22.87px;
+}
+
+.apartment__left {
+    width: 166px;
+    height: 166px;
+}
+
+.apartment__left img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.apartment__right {
+    flex: 1;
+    text-align: right;
+    color: white;
+}
+
+.apartment__right h2 {
+    font-size: 24px;
+}
+
+.apartment__right p {
+    margin-top: 14.23px;
+    font-size: 16px;
+}
