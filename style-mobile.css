@@ -1,0 +1,47 @@
+@media (max-width: 767.98px) {
+
+    .container {
+        position: relative;
+    }
+
+    .sidebar {
+        padding: 30px 20px 0 20px;
+    }
+
+    .contact__item:nth-child(2) {
+        margin: 0 25px;
+    }
+
+    .content {
+        margin-bottom: 50px;
+    }
+
+    .content__left {
+        width: 65%;
+    }
+
+    .content__right {
+        width: 30%;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer__left {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .footer__right {
+        justify-content: center;
+    }
+
+    .button {
+        display: block;
+    }
+}

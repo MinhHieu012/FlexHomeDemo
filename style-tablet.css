@@ -1,0 +1,35 @@
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .content__left {
+        width: 70%;
+    }
+
+    .content__left img {
+        object-fit: inherit;
+    }
+    
+    .content__right {
+        width: 25%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .struct {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+}
