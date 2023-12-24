@@ -120,7 +120,7 @@ body {
     padding-top: 33px;
     padding-bottom: 23px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     grid-column-gap: calc(50% - 60px);
     grid-row-gap: 22px;
     border-top: 1px solid #000;
